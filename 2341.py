@@ -11,4 +11,4 @@ for x in range(3,n+1):
 
 print(is_div)
 
-# ithil aadyam varunna For Loopil normal aaki declare cheyth. Eppozhaano divisibility varunnath appo
+# ithil aadyam varunna For Loopil normal aaki declare cheyth. Eppozhaano divisibility varunnath
