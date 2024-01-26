@@ -1,14 +1,11 @@
-n = 34
- 
-is_div = True
+nums = [1,2,2,3,1,4]
+frequency = {i:nums.count(i) for i in nums}
+print(frequency)
 
-for x in range(3,n+1):
-    if x % 2 == 1:
-        if n % x == 0:
-            is_div == False
-            break
+max_fre = max(frequency.values())
+sum_val = 0
+for i in frequency.values():
+    if i == max_fre:
+        sum_val = sum_val + max_fre
 
-
-print(is_div)
-
-# ithil aadyam varunna For Loopil normal aaki declare cheyth. Eppozhaano divisibility varunnath
+print(sum_val)
