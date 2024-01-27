@@ -5,5 +5,4 @@ output = []
 nums.sort()
 nums = set(nums)
 full_set = set(range(1, n + 1))
-
 print(list(full_set - nums))
